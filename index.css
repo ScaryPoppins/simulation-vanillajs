@@ -1,0 +1,139 @@
+body{
+    background-color: #fffdfc;
+}
+
+
+header{
+    background-color: #424249;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 13vh;
+    color: white;
+}
+#pig{
+    height: 8vh;
+    padding-left: 3vw;
+}
+#budget-builder{
+    font-size: 6vh;
+    padding-right: 28vw;
+    font-family: rightous;
+}
+#totals{
+    font-size: 5vh;
+    padding-right: 2vw;
+    padding-left: 5vw;
+
+    font-family: roboto;
+}
+#totaled{
+    font-size: 4vh;
+    padding-right: 2vw;
+
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10vh;
+
+
+
+
+}
+
+.expenses{
+    background-color: #efe8e1;
+    width: 35vw;
+    border-radius: 5px;
+    margin-left: 2.5vw;
+    padding: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #424249;
+    height 40vh;
+    font-weight: 700;
+  
+
+
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: 400;
+    padding-top: 3vh;
+
+}
+
+
+
+
+.add{
+    background-color: #54d2e5;
+    width: 35vw;
+    height: 30vh;
+    margin-right: 2.5vw;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3vw;
+    color: #424249;
+    font-size: 1rem;
+
+
+
+}
+#add-bill{
+    font-family: rightous;
+    font-weight: 700;
+    font-size: 1rem;
+    
+
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* display: inline-block; */
+    height: 25vh;
+}
+
+aside{
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type=text] {
+    border-radius: 5px;
+    border: solid 0.4px #424249;
+    display: flex;
+    justify-content: flex-end;
+    height: 4vh;
+    width: 25vw;
+}
+input[type=number] {
+    border-radius: 5px;
+    border: solid 0.4px #424249;
+    display: flex;
+    justify-content: flex-end;
+    height: 4vh;
+    width: 25vw;
+
+}
+
+label[for=name]{
+    display: flex;
+    align-self: center;
+}
+
+input[type=submit] {
+    background-color: #424249;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    height: 7vh;
+}
